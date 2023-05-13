@@ -16,10 +16,14 @@ class TV:
     #Get the current channel
     def getChannel(self):
         return self.channel
+    
     #Set a new channel
+    def setChannel(self,channel):
+        if self.on and 1 <= channel <= 120:
+            self.channel = channel
+
     #Gets the new volume level
     #Increases the channel number by 1
     #Decreases the channel number by 1
     #Increases the volume level by 1
     #Decreases the volume level by 1
-
