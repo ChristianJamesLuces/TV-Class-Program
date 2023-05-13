@@ -1,3 +1,5 @@
+#Luces, Christian James M. | BSCpE 1-5 | Assignment #6 | TV Class Program
+
 #Define the TV Class
 class TV:
     #Default values for channel, volumelevel, and TV state
