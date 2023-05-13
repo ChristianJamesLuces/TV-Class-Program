@@ -9,6 +9,8 @@ class TV:
     def turnOn(self):
         self.on = True
     #Turn off the TV
+    def turnoff(self):
+        self.on = False
     #Get the current channel
     #Set a new channel
     #Gets the new volume level
