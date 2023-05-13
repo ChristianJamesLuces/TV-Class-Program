@@ -23,6 +23,8 @@ class TV:
             self.channel = channel
 
     #Gets the new volume level
+    def getVolume(self, volume):
+        return self.volumelevel
     #Increases the channel number by 1
     #Decreases the channel number by 1
     #Increases the volume level by 1
