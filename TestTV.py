@@ -22,4 +22,6 @@ class TestTV:
         #Display the outputs
         print("tv1's channel is", tv1.setChannel(), "and volume level is", tv1.setVolume())
         print("tv2's channel is", tv2.setChannel(), "and volume level is", tv2.setVolume())
+
 #Execute the main method of the TestTV class
+TestTV.main()
