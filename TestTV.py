@@ -13,6 +13,11 @@ class TestTV:
         tv1.turnOn()
         tv1.setChannel(30)
         tv1.setVolume(3)
-#Turn on TV2 and set its channel and volume level
+
+        #Turn on TV2 and set its channel and volume level
+        tv2.turnOn()
+        tv2.setChannel(3)
+        tv2.setVolume(2)
+        
 #Display the outputs
 #Execute the main method of the TestTV class
