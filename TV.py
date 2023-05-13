@@ -28,7 +28,7 @@ class TV:
         return self.volumelevel
     
     #Sets a new volume level
-    def sefVolume(self, volumeLevel):
+    def setVolume(self, volumeLevel):
         if self.on and 1 <= volumeLevel <= 7:
             self.volumelevel = volumeLevel
 

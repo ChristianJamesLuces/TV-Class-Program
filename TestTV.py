@@ -8,8 +8,11 @@ class TestTV:
         #Create two TV objects
         tv1 = TV()
         tv2 = TV()
-        
-#Turn on TV1 and set its channel and volume level
+
+        #Turn on TV1 and set its channel and volume level
+        tv1.turnOn()
+        tv1.setChannel(30)
+        tv1.setVolume(3)
 #Turn on TV2 and set its channel and volume level
 #Display the outputs
 #Execute the main method of the TestTV class
