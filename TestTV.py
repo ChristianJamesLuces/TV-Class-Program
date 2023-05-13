@@ -1,3 +1,4 @@
+#Define the TV Class
 class TV:
     #Default values for channel, volumelevel, and TV state
     def __init__(self):
