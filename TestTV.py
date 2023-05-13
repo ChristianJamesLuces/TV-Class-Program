@@ -30,7 +30,12 @@ class TV:
     def sefVolume(self, volumeLevel):
         if self.on and 1 <= volumeLevel <= 7:
             self.volumelevel = volumeLevel
+
     #Increases the channel number by 1
+    def channelUp(self):
+        if self.on and self.channel < 120:
+            self.channel += 1
+
     #Decreases the channel number by 1
     #Increases the volume level by 1
     #Decreases the volume level by 1
