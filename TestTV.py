@@ -3,7 +3,9 @@ from TV import TV
 
 #Define the TestTV class
 class TestTV:
-#Main method to test the class
+    #Main method to test the class
+    def main(self):
+        
 #Create two TV objects
 #Turn on TV1 and set its channel and volume level
 #Turn on TV2 and set its channel and volume level
