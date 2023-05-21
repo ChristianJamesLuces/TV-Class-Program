@@ -12,7 +12,7 @@ This program provides the following features:
 - Has a GUI widget
 
 ## Installation
-This program requires Python 3 and Tkinter to be installed on your computer. If you don't have Python 3 installed, you can download it from the official website: https://www.python.org/downloads. To run the program, simply download and execute the 'TV.py' and 'TestTV.py' file. To install 'Tkinter' package that is also required you can use this pip:
+This program requires Python 3 and Tkinter to be installed on your computer. If you don't have Python 3 installed, you can download it from the official website: https://www.python.org/downloads. To run the program, simply download and execute the 'TV.py' and 'TestTV.py' file. To install 'Tkinter' package that is required you can use this pip:
 
 ```bash
 pip intall tk
